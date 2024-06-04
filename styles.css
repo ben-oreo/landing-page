@@ -1,41 +1,252 @@
-.container {
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+  }
+
+
+  /* HEADER - SECTION 1 */
+
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    margin: 0;
+    gap: 15px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex-wrap: wrap;   
+  }
+
+  .break {
+    display: flex;
+    width: 10px;
+  }
+
+.this_website {
+  font-weight: bolder;
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.awesome {
+  padding-bottom: 24px;
+}
+  .logo {
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  a {
+    font-weight: 5;
+    font-size: 16px;
+  }
+  
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+  
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+.image1 {
+    width: 300
+}
+
+.container2 {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
     flex-wrap: wrap;
-    padding: 75px;
+    padding: 45px;
+    flex-direction: row;
+    justify-content: center;
+    border-left: 400px;
+    padding-bottom: 100px;
+    padding-top: 70px;
 }
 
-.two .three .four {
-    justify-content: flex-end;
-    gap: 10px;
-}
-.break {
-    flex-basis: 100%;
-    height: 0;
-}
-.Header {
-    flex-grow: 1;
+.p {
+    display: flex;
     flex-direction: row;
-    font-size: 24px;
-    flex: 1 1 80px;
-    display: block;
-    border: #1F2937;
 }
+
+.lefty {
+  padding-right: 25px;
+  width: 400px;
+  gap: 16px;
+
+}
+
+/* IMAGES - SECTION 2 */
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 125px;
+    padding-top: 50px;
+}
+
+.text {
+    max-width: 200px;
+    text-align: center;
+    color: #1F2937;
+    font-family: sans-serif;
+}
+
+.header2 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 32px;
+    text-align: center;
+    padding-top: 36px;
+    color: #1F2937;
+}
+
+.computer {
+  border-color: #3882F6;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+/* THOR QUOTE - SECTION 3 */
 
 .quote-container {
     display: flex;
     background-color: #E5E7EB;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 125px;
+    flex: 2;
 }
+
 .quote {
+    display: flex;
     text-align: center;
     font-size: 36px;
     font-style: italic;
-    padding: 75px;
+    padding-bottom: 0;
     color: #1F2937;
 }
 
 .thor {
-    justify-content: flex-end;
+    display:flex;
+    margin-left: 500px;
+    font-weight: 800;
+
 }
+
+/* BUTTON - SECTION 4 */
+
+.action {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sign-up {
+    font-weight: 50;
+    font-size: 12px;
+}
+
+.button1 {
+    flex-shrink: 0;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    justify-content: center;
+    margin-left: auto;  
+  }
+
+
+
+.button-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.button-info {
+    display: flex;
+    width: 200px;
+    color: white;
+    outline: #1F2937;
+    flex-direction: row;
+    justify-content: center;
+    background: #3882F6;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    margin:auto;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    align-items: space-evenly;
+    font-size: 12x;
+    font-weight: 300;
+    padding: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+button.continue {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+
+button.cancel {
+    background: white;
+    border: 1px solid #ddd;
+    color: royalblue;
+}
+
+/* FOOTER - SECTION 5  */
+
+.footer {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 36px;
+    border-top: 1px solid #ddd;
+}
+
+/* ADDITIONAL TOUCHES  */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    margin-bottom: 16px;
+  }
+
+a {
+      display: flex;
+      align-content: center;
+      justify-content: first baseline;
+      color: white;
+      text-decoration: none;
+      
+  }
+  
